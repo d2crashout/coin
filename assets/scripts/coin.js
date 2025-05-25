@@ -9,7 +9,7 @@ function coinFlip() {
 
     if (randomNumber === 1) {
         result.innerHTML = "<h1>Heads</h1>"
-    } if (randomNumber === 0) {
+    } else if (randomNumber === 0) {
         result.innerHTML = "<h1>Tails</h1>"
     } else {
         result.innerHTML = "error"
